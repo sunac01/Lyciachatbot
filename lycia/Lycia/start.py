@@ -3,8 +3,9 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 LYCIA_START = """
-Hello, I am Lycia [リュキア], An Intelligent ChatBot. If You Are Feeling Lonely, You can Always Come to me and Chat With Me!
-"""
+ Merhaba Ben SOFİA 👩‍ 
+ Pyton Dilinde Yazılmış Bir Özel Sohbet Botuyum 
+ 
 
 
 @LYCIA.on_message(filters.command(["start"], prefixes = "/") & ~filters.edited)
