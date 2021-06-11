@@ -33,8 +33,8 @@ async def lycia(client, message):
         message.continue_propagation()
     if chat_id in en_chats:
         aura = msg
-        aura = aura.replace("lycia", "Aco")
-        aura = aura.replace("Lycia", "Aco")
+        aura = aura.replace("Sofia", "Aco")
+        aura = aura.replace("Sofia", "Aco")
         querystring = {
             "bid": "178",
             "key": "sX5A2PcYZbsN5EY6",
@@ -49,12 +49,12 @@ async def lycia(client, message):
         result = response.text
         result = result.replace('{"cnt":"', "")
         result = result.replace('"}', "")
-        result = result.replace("Aco", "Lycia")
-        result = result.replace("Eliza", "@Lyciachatbot")
-        result = result.replace("Hi~", "Hello Friend I Am @Lyciachatbot")
-        result = result.replace("My dear great botmaster, Lyciabot Team.", "Made By @madepranav")
+        result = result.replace("Aco", "Sofia")
+        result = result.replace("Eliza", "@SofiaChatBot")
+        result = result.replace("Hi~", "Hello Friend I Am @SofiaChatBot")
+        result = result.replace("My dear great botmaster, Lyciabot Team.", "Made By @Azerbesk")
         result = result.replace("Have the control right.", "My Father Is @madepranav")
-        result = result.replace("I was created by Lyciabot Team.", "I was created by @Techno_Ocean Team.")
+        result = result.replace("I was created by Sofia Team.", "I was created by @NetdBots Team.")
         result = result.replace("<a href=\\", "<a href =")
         result = result.replace("<\/a>", "</a>")
         red = result
@@ -96,8 +96,8 @@ async def lycia(client, message):
         if not "en" in lan and not lan == "":
             aura = translator.translate(aura, lang_tgt="en")
 
-        aura = aura.replace("lycia", "Aco")
-        aura = aura.replace("Lycia", "Aco")
+        aura = aura.replace("Sofia", "Aco")
+        aura = aura.replace("Sofia", "Aco")
         querystring = {
             "bid": "178",
             "key": "sX5A2PcYZbsN5EY6",
@@ -112,12 +112,12 @@ async def lycia(client, message):
         result = response.text
         result = result.replace('{"cnt":"', "")
         result = result.replace('"}', "")
-        result = result.replace("Aco", "Lycia")
-        result = result.replace("Eliza", "@Lyciachatbot")
-        result = result.replace("Hi~", "Hello Friend I Am @Lyciachatbot")
-        result = result.replace("My dear great botmaster, Lyciabot Team.", "Made By @madepranav")
-        result = result.replace("Have the control right.", "My Father Is @madepranav")
-        result = result.replace("I was created by Lyciabot Team.", "I was created by @Techno_Ocean Team.")
+        result = result.replace("Aco", "Sofia")
+        result = result.replace("Eliza", "@SofiaChatBot")
+        result = result.replace("Hi~", "Hello Friend I Am @SofiaChatBot")
+        result = result.replace("My dear great botmaster, Lyciabot Team.", "Made By @Azerbesk")
+        result = result.replace("Have the control right.", "My Father Is @Azerbesk")
+        result = result.replace("I was created by Sofia Team.", "I was created by @NetdBots Team.")
         result = result.replace("<a href=\\", "<a href =")
         result = result.replace("<\/a>", "</a>")
         red = result
@@ -185,12 +185,12 @@ async def redaura(client, message):
     result = response.text
     result = result.replace('{"cnt":"', "")
     result = result.replace('"}', "")
-    result = result.replace("Aco", "Lycia")
-    result = result.replace("Eliza", "@Lyciachatbot")
-    result = result.replace("Hi~", "Hello Friend I Am @Lyciachatbot")
-    result = result.replace("My dear great botmaster, Lyciabot Team.", "Made By @madepranav")
+    result = result.replace("Aco", "Sofia")
+    result = result.replace("Eliza", "@Sofiachatbot")
+    result = result.replace("Hi~", "Hello Friend I Am @Sofiachatbot")
+    result = result.replace("My dear great botmaster, Lyciabot Team.", "Made By @Azerbesk")
     result = result.replace("Have the control right.", "My Father Is @madepranav")
-    result = result.replace("I was created by Lyciabot Team.", "I was created by @Techno_Ocean Team.")
+    result = result.replace("I was created by Sofia Team.", "I was created by @NetdBots Team.")
     result = result.replace("<a href=\\", "<a href =")
     result = result.replace("<\/a>", "</a>")
     red = result
@@ -204,7 +204,7 @@ async def redaura(client, message):
 
 
 @LYCIA.on_message(
-    filters.regex("Lycia|lycia|LYCIA")
+    filters.regex("sofia|Sofia|SOFİA")
     & ~filters.bot
     & ~filters.via_bot
     & ~filters.forwarded
@@ -248,8 +248,8 @@ async def redaura(client, message):
         aura = translator.translate(aura, lang_tgt="en")
 
 
-    aura = aura.replace("lycia", "Aco")
-    aura = aura.replace("Lycia", "Aco")
+    aura = aura.replace("sofia", "Aco")
+    aura = aura.replace("Sofia", "Aco")
     querystring = {
         "bid": "178",
         "key": "sX5A2PcYZbsN5EY6",
@@ -264,12 +264,12 @@ async def redaura(client, message):
     result = response.text
     result = result.replace('{"cnt":"', "")
     result = result.replace('"}', "")
-    result = result.replace("Aco", "Lycia")
-    result = result.replace("Eliza", "@Lyciachatbot")
-    result = result.replace("Hi~", "Hello Friend I Am @elianachatbot")
-    result = result.replace("My dear great botmaster, Daisybot Team.", "Made By @madepranav")
-    result = result.replace("Have the control right.", "My Father Is @madepranav")
-    result = result.replace("I was created by Lyciabot Team.", "I was created by @Techno_Ocean Team.")
+    result = result.replace("Aco", "Sofia")
+    result = result.replace("Eliza", "@Sofiachatbot")
+    result = result.replace("Hi~", "Hello Friend I Am @Sofiachatbot")
+    result = result.replace("My dear great botmaster, Sofia Team.", "Made By @Azerbesk")
+    result = result.replace("Have the control right.", "My Father Is @Azerbesk")
+    result = result.replace("I was created by Sofia Team.", "I was created by @NetdBots Team.")
     result = result.replace("<a href=\\", "<a href =")
     result = result.replace("<\/a>", "</a>")
     pro = result
